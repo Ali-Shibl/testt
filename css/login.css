@@ -1,0 +1,22 @@
+input[type="checkbox"] {
+    width: 18px;   
+    height: 18px;  
+  }
+.Or::after{
+content: '';
+position: absolute;
+left: 0;
+top: 50%;
+background-color: rgb(238, 238, 238);
+height: 2px;
+width: 45%
+  }
+.Or::before{
+content: '';
+position: absolute;
+right: 0;
+top: 50%;
+background-color: rgb(238, 238, 238);
+height: 2px;
+width:45%;
+  }
